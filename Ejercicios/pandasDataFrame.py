@@ -13,3 +13,4 @@ mexico = mexico.drop("ISO 3166-1 alpha-3", axis=1)
 globalData = df.loc["Global"]
 globalData.set_index("Year", inplace=True)
 globalData = globalData.drop("ISO 3166-1 alpha-3", axis=1)
+
